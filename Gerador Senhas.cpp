@@ -96,8 +96,7 @@ void salvartxt(int vezes)
     case 'S':
     case 's':
 
-        if (opces == 'S' || opces == 's')
-        {
+        
             arq.open("Anota.txt");
 
             if (arq.is_open())
@@ -112,7 +111,7 @@ void salvartxt(int vezes)
 
             system("PAUSE");
 
-        }
+        
         break;
     default:
         cout << "Nao foi salvo as senhas no bloco de notas " << endl;
